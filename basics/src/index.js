@@ -1,3 +1,4 @@
-import { sayHello } from './app';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-sayHello();
+ReactDOM.render(<App />, document.getElementById('root'));
