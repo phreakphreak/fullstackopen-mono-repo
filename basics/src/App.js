@@ -1,5 +1,9 @@
+const Hello = (props) => {
+  return <div>{props?.message}</div>;
+};
+
 const App = () => {
-  return <div>Hello World! Again</div>;
+  return <Hello message="Hello World" />;
 };
 
 export default App;
